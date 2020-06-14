@@ -46,7 +46,7 @@ Observable.just(optionalValue2)
 ### ObservableType.Weak
 weak self make and self is nil not work closure. your type saving.
 flatMap, flatMapFirst, flatMapLatest, do, map, subscribe
-```
+```swift
 // Before
 Observable.just(1)
     .map { [weak self] number -> String? in
